@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2 {
+  background-color: black;
+  color: white;
+  font-family: 'Georgia', 'Garamond', serif;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#heading {
+  position: relative;
+  z-index: 10;
+}
+
+.border {
+  border-bottom: 3px solid white;
+}
+
+#title {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 48px;
+  font-family: Arial;
+  z-index: 10;
+  pointer-events: none;
+}
+
+
+
+
